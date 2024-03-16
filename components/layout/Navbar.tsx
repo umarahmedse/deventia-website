@@ -4,7 +4,7 @@ import logoImg from "@/assets/images/logoImg.png";
 import Link from "next/link";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { RiMenu4Line } from "react-icons/ri";
-import { inter } from "@/app/layout";
+import { inter } from "@/utils/fonts";
 
 const Navbar = () => {
   return (
