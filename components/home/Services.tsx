@@ -1,4 +1,4 @@
-import { servicesData } from "@/data/serviceData";
+import { servicesData } from "@/data/data";
 import { euroStyle } from "@/utils/fonts";
 import React from "react";
 import { HoverCard } from "../ui/hovercards";
