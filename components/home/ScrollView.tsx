@@ -45,6 +45,26 @@ export const ScrollView = ({
       ref={containerRef}
     >
       <div
+        className="absolute top-0 -left-4 w-72 h-72 bg-[#7571e6] rounded-full filter blur-3xl opacity-40 animate-blob "
+        style={{ animationDelay: "4s" }}
+      ></div>
+      <div
+        className="absolute left-20 w-72 h-72 bg-[#cccaf0] rounded-full filter blur-3xl opacity-40 animate-blob"
+        style={{ animationDelay: "2s" }}
+      ></div>
+      <div
+        className="absolute top-0 -right-4 w-48 h-48 bg-[#c7e671] rounded-full filter blur-3xl opacity-40 animate-blob "
+        style={{ animationDelay: "6s" }}
+      ></div>
+      <div
+        className="absolute right-0 -bottom-4 w-48 h-48 bg-[#78e6f5] rounded-full filter blur-3xl opacity-40 animate-blob"
+        style={{ animationDelay: "3s" }}
+      ></div>
+      <div
+        className="absolute top-1/2 left-1/2 w-48 h-48 bg-[#90aaf0] rounded-full filter blur-3xl opacity-40 animate-blob"
+        style={{ animationDelay: "5s" }}
+      ></div>
+      <div
         className="py-10 md:py-40 w-full relative"
         style={{
           perspective: "1000px",
