@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import logoImg from "@/assets/images/logoImg.png";
+import logoImg from "@/assets/images/logoImg.gif";
 import Link from "next/link";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { RiMenu4Line } from "react-icons/ri";

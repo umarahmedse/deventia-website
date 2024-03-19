@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logoImg from "@/assets/images/logoImg.png";
+import logoImg from "@/assets/images/logoImg.gif";
 import { euroStyle } from "@/utils/fonts";
 const Footer = () => {
   return (
