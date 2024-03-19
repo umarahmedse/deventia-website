@@ -22,7 +22,7 @@ const StatsAndPartners = () => {
         <InfiniteMovingCards
           items={partnersData}
           direction="right"
-          speed="slow"
+          speed="normal"
         />
       </div>
     </>
