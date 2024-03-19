@@ -13,7 +13,9 @@ const config: Config = {
   theme: {
     extend: {
       animation: {
-        blob: "blob 5s infinite",
+        blob: "blob 3s infinite",
+        scroll:
+          "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {
         blob: {
@@ -30,12 +32,18 @@ const config: Config = {
             transform: "tranlate(0px, 0px) scale(1)",
           },
         },
+        scroll: {
+          to: {
+            transform: "translate(calc(-50% - 0.5rem))",
+          },
+        },
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "bg-hero": "url('/demoBg.png')",
+        stats: "url('/statsBg.png')",
       },
     },
     screens: {

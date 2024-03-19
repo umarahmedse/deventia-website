@@ -159,3 +159,41 @@ export const accordionData = [
       "Ensuring inclusivity and valuing the perspectives and contributions of all individuals.",
   },
 ];
+export const statsData = [
+  {
+    value: 99,
+    title: "Projects",
+  },
+  {
+    value: 35,
+    title: "Employees",
+  },
+  {
+    value: 12,
+    title: "Clients",
+  },
+  {
+    value: 3,
+    title: "Years",
+  },
+];
+export const partnersData = [
+  {
+    imageUrl: "https://i.ibb.co/jJHM2tr/Company-Logo.png",
+  },
+  {
+    imageUrl: "https://i.ibb.co/n7xrgw7/Company-Logo-1.png",
+  },
+  {
+    imageUrl: "https://i.ibb.co/YTHw95t/Company-Logo-2.png",
+  },
+  {
+    imageUrl: "https://i.ibb.co/jJHM2tr/Company-Logo.png",
+  },
+  {
+    imageUrl: "https://i.ibb.co/n7xrgw7/Company-Logo-1.png",
+  },
+  {
+    imageUrl: "https://i.ibb.co/YTHw95t/Company-Logo-2.png",
+  },
+];

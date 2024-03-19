@@ -2,6 +2,7 @@ import ChooseUs from "@/components/home/ChooseUs";
 import Hero from "@/components/home/Hero";
 import { ScrollView } from "@/components/home/ScrollView";
 import Services from "@/components/home/Services";
+import StatsAndPartners from "@/components/home/Stats";
 import { TracingBeam } from "@/components/ui/tracingbeam";
 import { users } from "@/data/data";
 import React from "react";
@@ -26,6 +27,7 @@ const page = () => {
           }
         />
         <ChooseUs />
+        <StatsAndPartners />
       </TracingBeam>
     </>
   );

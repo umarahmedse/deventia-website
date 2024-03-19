@@ -41,7 +41,7 @@ export const ScrollView = ({
 
   return (
     <div
-      className="h-[45rem] md:h-[55rem] flex items-center justify-center relative p-2 md:p-20 bg-[#191919]"
+      className="h-[45rem] md:h-[55rem] flex items-center justify-center relative p-2 md:p-20 bg-[#191919] overflow-hidden"
       ref={containerRef}
     >
       <div
@@ -53,15 +53,15 @@ export const ScrollView = ({
         style={{ animationDelay: "2s" }}
       ></div>
       <div
-        className="absolute top-0 -right-4 w-48 h-48 bg-[#c7e671] rounded-full filter blur-3xl opacity-40 animate-blob "
+        className="absolute top-0 -right-4 w-48 h-48 bg-[#d5f188] rounded-full filter blur-3xl opacity-40 animate-blob "
         style={{ animationDelay: "6s" }}
       ></div>
       <div
-        className="absolute right-0 -bottom-4 w-48 h-48 bg-[#78e6f5] rounded-full filter blur-3xl opacity-40 animate-blob"
+        className="absolute right-0 -bottom-4 w-48 h-48 bg-[#afe8f0] rounded-full filter blur-3xl opacity-40 animate-blob"
         style={{ animationDelay: "3s" }}
       ></div>
       <div
-        className="absolute top-1/2 left-1/2 w-48 h-48 bg-[#90aaf0] rounded-full filter blur-3xl opacity-40 animate-blob"
+        className="absolute top-1/2 left-1/2 w-48 h-48 bg-[#a9f7b6] rounded-full filter blur-3xl opacity-40 animate-blob"
         style={{ animationDelay: "5s" }}
       ></div>
       <div
