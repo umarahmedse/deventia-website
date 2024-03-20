@@ -197,3 +197,29 @@ export const partnersData = [
     imageUrl: "https://i.ibb.co/YTHw95t/Company-Logo-2.png",
   },
 ];
+export const testiomonialsData = [
+  {
+    imageUrl:
+      "https://l-ldesign.com.au/2016/wp-content/uploads/2020/01/profile-pic-katie-square.jpg",
+    title: "Graphic Designer",
+    text: "Deventia provides businesses with an edge over the competition with various benefits. Opting for outsourced IT services improves business efficiency",
+  },
+  {
+    imageUrl:
+      "https://l-ldesign.com.au/2016/wp-content/uploads/2020/01/profile-pic-katie-square.jpg",
+    title: "Graphic Designer",
+    text: "Deventia provides businesses with an edge over the competition with various benefits. Opting for outsourced IT services improves business efficiency",
+  },
+  {
+    imageUrl:
+      "https://l-ldesign.com.au/2016/wp-content/uploads/2020/01/profile-pic-katie-square.jpg",
+    title: "Graphic Designer",
+    text: "Deventia provides businesses with an edge over the competition with various benefits. Opting for outsourced IT services improves business efficiency",
+  },
+  {
+    imageUrl:
+      "https://l-ldesign.com.au/2016/wp-content/uploads/2020/01/profile-pic-katie-square.jpg",
+    title: "Graphic Designer",
+    text: "Deventia provides businesses with an edge over the competition with various benefits. Opting for outsourced IT services improves business efficiency",
+  },
+];

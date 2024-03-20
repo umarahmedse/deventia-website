@@ -2,7 +2,9 @@ import ChooseUs from "@/components/home/ChooseUs";
 import Hero from "@/components/home/Hero";
 import { ScrollView } from "@/components/home/ScrollView";
 import Services from "@/components/home/Services";
+import Testimonial from "@/components/home/Testimonial";
 import StatsAndPartners from "@/components/home/Stats";
+import WhoWeAre from "@/components/home/WhoWeAre";
 import { TracingBeam } from "@/components/ui/tracingbeam";
 import { users } from "@/data/data";
 import React from "react";
@@ -28,6 +30,8 @@ const page = () => {
         />
         <ChooseUs />
         <StatsAndPartners />
+        <WhoWeAre />
+        <Testimonial />
       </TracingBeam>
     </>
   );
