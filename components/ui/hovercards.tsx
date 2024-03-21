@@ -80,7 +80,7 @@ export function CardPattern({ mouseX, mouseY, randomString }: any) {
   let style = { maskImage, WebkitMaskImage: maskImage };
 
   return (
-    <div className="pointer-events-none opacity-50">
+    <div className="pointer-events-none opacity-20">
       <div className="absolute inset-0   [mask-image:linear-gradient(white,transparent)] group-hover/card:opacity-50"></div>
       <motion.div
         className="absolute inset-0  bg-gradient-to-r from-green-500 to-blue-700 opacity-0  group-hover/card:opacity-100 backdrop-blur-xl transition duration-500"
