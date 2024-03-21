@@ -41,7 +41,7 @@ export const ScrollView = ({
 
   return (
     <div
-      className="h-[45rem] md:h-[55rem] flex items-center justify-center relative p-2 md:p-20 bg-[#191919] overflow-hidden"
+      className="hidden md:block h-[45rem] md:h-[55rem] flex items-center justify-center relative p-2 md:p-20 bg-[#191919] overflow-hidden"
       ref={containerRef}
     >
       <div
