@@ -1,6 +1,8 @@
-import { Poppins } from "next/font/google";
+import { Inter, Poppins } from "next/font/google";
 import localFont from "next/font/local";
-export const interFont = localFont({ src: "./fonts/Inter.ttf" });
+export const inter = Inter({ subsets: ["latin"] });
+export const interFont = Inter({ subsets: ["latin"] });
+
 export const euroStyle = localFont({ src: "./fonts/EuroStyleNormal.woff2" });
 export const genos = localFont({ src: "./fonts/Genos.ttf" });
 export const poppins = Poppins({
