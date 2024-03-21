@@ -1,3 +1,4 @@
+"use client";
 import React, { useRef } from "react";
 import { useScroll, useTransform, motion } from "framer-motion";
 
@@ -31,7 +32,7 @@ export const ScrollView = ({
   }, []);
 
   const scaleDimensions = () => {
-    return isMobile ? [1, 1] : [1.05, 1];
+    return isMobile ? [0.7, 0.9] : [1.05, 1];
   };
 
   const rotate = useTransform(scrollYProgress, [0, 1], [20, 0]);
@@ -71,11 +72,10 @@ export const ScrollView = ({
       >
         <Header translate={translate} titleComponent={titleComponent} />
         <Card
-          rotate={isMobile ? 0 : rotate} // Disabling rotation on mobile
+          rotate={rotate}
           translate={translate}
           scale={scale}
           users={users}
-          isMobile={isMobile} // Pass isMobile to Card component
         />
       </div>
     </div>
@@ -100,7 +100,6 @@ export const Card = ({
   scale,
   translate,
   users,
-  isMobile,
 }: {
   rotate: any;
   scale: any;
@@ -111,7 +110,6 @@ export const Card = ({
     image: string;
     badge?: string;
   }[];
-  isMobile: boolean; // Receive isMobile prop
 }) => {
   return (
     <motion.div
@@ -128,14 +126,11 @@ export const Card = ({
           <motion.div
             key={`user-${idx}`}
             className="bg-white rounded-md cursor-pointer relative"
-            style={{ translateY: isMobile ? 0 : translate }} // Disable translate on mobile
-            whileHover={
-              !isMobile && {
-                // Apply hover effect only if not mobile
-                boxShadow:
-                  "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
-              }
-            }
+            style={{ translateY: translate }}
+            whileHover={{
+              boxShadow:
+                "0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1)",
+            }}
           >
             <div className="absolute top-2 right-2 rounded-full text-xs font-bold bg-white px-2 py-1">
               {user.badge}

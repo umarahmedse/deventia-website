@@ -242,22 +242,4 @@ export const portfolioData = [
     imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
     displayTitle: "ISA Consulting - Get Dream Job",
   },
-  {
-    title: "RS Global Ties",
-    link: "https://rs-global-ties.com",
-    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
-    displayTitle: "RS Global Ties - Where Businesses Grow",
-  },
-  {
-    title: "ISA Consulting",
-    link: "https://isaconsulting.com",
-    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
-    displayTitle: "ISA Consulting - Get Dream Job",
-  },
-  {
-    title: "RS Global Ties",
-    link: "https://rs-global-ties.com",
-    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
-    displayTitle: "RS Global Ties - Where Businesses Grow",
-  },
 ];

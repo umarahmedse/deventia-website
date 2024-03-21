@@ -48,7 +48,7 @@ const Portfolio = () => {
           <p> View More</p> <MdArrowOutward size={25} color="#7471E6" />
         </Link>
       </div>
-      <div className="flex items-center overflow-x-auto scrollbar-none">
+      <div className="flex items-center flex-wrap justify-center">
         {portfolioData.map((item, index) => (
           <PinContainer
             key={index + 0.589 * 2}
