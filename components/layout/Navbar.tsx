@@ -38,6 +38,7 @@ const Navbar = () => {
           </ul>
         </div>
         <Image
+          unoptimized
           src={logoImg}
           width={100}
           alt="deventia logo"

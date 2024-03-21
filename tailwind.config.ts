@@ -43,7 +43,7 @@ const config: Config = {
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
         "bg-hero": "url('/demoBg.png')",
-        stats: "url('/statsBg.png')",
+        stats: "url('/statsBg.webp')",
       },
     },
     screens: {
