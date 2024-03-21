@@ -4,12 +4,12 @@ import logoImg from "@/assets/images/logoImg.gif";
 import Link from "next/link";
 import { MdOutlineArrowOutward } from "react-icons/md";
 import { RiMenu4Line } from "react-icons/ri";
-import { inter } from "@/utils/fonts";
+import { interFont } from "@/utils/fonts";
 
 const Navbar = () => {
   return (
     <div
-      className={`navbar fixed top-0 bg-opacity-5 bg-white backdrop-filter backdrop-blur-sm  shadow-sm z-[100] !p-0 ${inter.className} !font-[400]`}
+      className={`navbar fixed top-0 bg-opacity-5 bg-white backdrop-filter backdrop-blur-sm  shadow-sm z-[100] !p-0 ${interFont.className} !font-[400]`}
     >
       <div className="navbar-start ">
         <div className="dropdown">

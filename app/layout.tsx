@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
 import "./globals.css";
-
-const interFont = Inter({ subsets: ["latin"] });
+import { interFont } from "@/utils/fonts";
 
 export const metadata: Metadata = {
   title: "DeventiaTech Limited",
