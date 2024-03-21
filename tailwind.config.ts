@@ -72,7 +72,11 @@ const config: Config = {
   daisyui: {
     themes: ["light"],
   },
-  plugins: [require("daisyui"), addVariablesForColors],
+  plugins: [
+    require("daisyui"),
+    addVariablesForColors,
+    require("tailwind-scrollbar"),
+  ],
   darkMode: "class",
 };
 function addVariablesForColors({ addBase, theme }: any) {

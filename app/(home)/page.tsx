@@ -8,6 +8,7 @@ import WhoWeAre from "@/components/home/WhoWeAre";
 import { TracingBeam } from "@/components/ui/tracingbeam";
 import { users } from "@/data/data";
 import React from "react";
+import Portfolio from "@/components/home/Portfolio";
 
 const page = () => {
   return (
@@ -32,6 +33,7 @@ const page = () => {
         <StatsAndPartners />
         <WhoWeAre />
         <Testimonial />
+        <Portfolio />
       </TracingBeam>
     </>
   );

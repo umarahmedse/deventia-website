@@ -223,3 +223,41 @@ export const testiomonialsData = [
     text: "Deventia provides businesses with an edge over the competition with various benefits. Opting for outsourced IT services improves business efficiency",
   },
 ];
+export const portfolioData = [
+  {
+    title: "ISA Consulting",
+    link: "https://isaconsulting.com",
+    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
+    displayTitle: "ISA Consulting - Get Dream Job",
+  },
+  {
+    title: "RS Global Ties",
+    link: "https://rs-global-ties.com",
+    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
+    displayTitle: "RS Global Ties - Where Businesses Grow",
+  },
+  {
+    title: "ISA Consulting",
+    link: "https://isaconsulting.com",
+    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
+    displayTitle: "ISA Consulting - Get Dream Job",
+  },
+  {
+    title: "RS Global Ties",
+    link: "https://rs-global-ties.com",
+    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
+    displayTitle: "RS Global Ties - Where Businesses Grow",
+  },
+  {
+    title: "ISA Consulting",
+    link: "https://isaconsulting.com",
+    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
+    displayTitle: "ISA Consulting - Get Dream Job",
+  },
+  {
+    title: "RS Global Ties",
+    link: "https://rs-global-ties.com",
+    imageUrl: "https://i.ibb.co/wN0RzsL/Trading-Dashboard.png",
+    displayTitle: "RS Global Ties - Where Businesses Grow",
+  },
+];

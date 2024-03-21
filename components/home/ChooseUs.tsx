@@ -48,7 +48,7 @@ const ChooseUs = () => {
         {/* ACCORDION  */}
         {accordionData.map((item, index) => (
           <div
-            className="collapse collapse-arrow bg-[#7471E680] rounded-none mb-1 text-white z-20"
+            className="collapse collapse-arrow bg-[#7471E680] rounded-none mb-1 text-white z-[15]"
             key={index + 0.05 * 2}
           >
             <input type="radio" name="my-accordion-2" />

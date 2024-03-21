@@ -1,10 +1,7 @@
-import { servicesData, testiomonialsData } from "@/data/data";
+import { testiomonialsData } from "@/data/data";
 import { euroStyle, genos } from "@/utils/fonts";
 import React from "react";
-import { HoverCard } from "../ui/hovercards";
-import Link from "next/link";
-import { MdArrowOutward } from "react-icons/md";
-import Image from "next/image";
+
 import { TestimonialCards } from "../ui/TestimonialCards";
 
 const WhoWeAre = () => {
