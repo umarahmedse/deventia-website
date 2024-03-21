@@ -6,7 +6,7 @@ import { MdOutlineArrowOutward } from "react-icons/md";
 const Hero = () => {
   return (
     <div className="relative bg-[#161616] h-screen">
-      <video
+      {/* <video
         autoPlay
         muted
         loop
@@ -14,7 +14,7 @@ const Hero = () => {
       >
         <source src={"/demobgVideo.webm"}  />
         Your browser does not support the video tag.
-      </video>
+      </video> */}
       <div className="absolute inset-0 flex items-center justify-start p-8">
         <div className="flex flex-col items-start gap-6">
           <div className="flex items-center gap-1 1200px:w-1/2">
