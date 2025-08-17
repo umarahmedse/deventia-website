@@ -40,14 +40,14 @@ const Navbar = () => {
         <Image
           unoptimized
           src={logoImg}
-          width={100}
-          alt="deventia logo"
+          width={150}
+          alt="Cybitronix logo"
           className="lg:ml-6"
         />
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1 items-center">
-          <li className="text-white">
+          {/* <li className="text-white">
             <Link href={"/"}>Home</Link>
           </li>
           <li className="text-white/70">
@@ -61,7 +61,7 @@ const Navbar = () => {
           </li>
           <li className="text-white/70">
             <Link href={"/"}>About Us</Link>
-          </li>
+          </li> */}
 
           <Link
             href={"/"}
