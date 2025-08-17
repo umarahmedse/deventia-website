@@ -250,6 +250,6 @@ export const portfolioData = [
     title: "Cliender - Multifunctional ERP",
     link: "",
     imageUrl: "https://i.ibb.co/DgzMWB8T/cleinder-mockup.jpg",
-    displayTitle: "Cliender - Multifunctional ERP (NDA Protected)",
+    displayTitle: "Cliender - Multifunctional ERP",
   },
 ];

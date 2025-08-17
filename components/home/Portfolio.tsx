@@ -64,11 +64,11 @@ const Portfolio = () => {
               />
               <div className="mt-2 p-2 flex items-center justify-between">
                 <div className="">
-                  <h3
+                  {/* <h3
                     className={`${poppins.className} text-[1rem] text-white z-10 font-[300]`}
                   >
                     Click Here To Visit{" "}
-                  </h3>
+                  </h3> */}
                   <h3
                     className={`${poppins.className} text-[0.8rem] text-white z-10 font-[600] leading-none`}
                   >
