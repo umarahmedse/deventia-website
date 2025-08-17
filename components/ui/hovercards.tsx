@@ -41,7 +41,7 @@ export const HoverCard = ({
   return (
     <div
       className={cn(
-        "p-0.5 md:border-l-2 md:border-white  bg-transparent   flex items-center justify-center w-full h-full relative",
+        "p-0.5 md:border-l-2 tracking-wider md:border-white  bg-transparent   flex items-center justify-center w-full h-full relative",
         className
       )}
     >

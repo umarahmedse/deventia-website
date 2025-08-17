@@ -29,8 +29,8 @@ const Services = () => {
           className={`${euroStyle.className} text-[2rem] md:text-[4rem] leading-none text-white/75  z-10
           `}
         >
-          Empowering our global clientele to embrace modern technology, rethink
-          processes, and elevate experiences
+          Driving innovation by enabling global brands to adopt cutting-edge
+          technology, streamline workflows, and delight customers.
         </h1>
       </div>
       <div className=" md:w-1/2 flex flex-col">

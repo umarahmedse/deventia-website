@@ -43,7 +43,7 @@ const ChooseUs = () => {
           className={`${euroStyle.className} text-[2rem] md:text-[4rem] leading-none text-white/75  z-10
           `}
         >
-          Why Choose Services From Deventia?
+          Why Choose Services From Cybitronix?
         </h1>
         {/* ACCORDION  */}
         {accordionData.map((item, index) => (
@@ -67,7 +67,7 @@ const ChooseUs = () => {
       <div className=" md:w-1/2 flex flex-col p-8">
         <Image src={chooseUsImg} alt="choose us image" />
         <p className="p-6 text-white text-[1.2rem]">
-          Deventia provides businesses with an edge over the competition with
+          Cybitronix provides businesses with an edge over the competition with
           various benefits. Opting for outsourced IT services improves business
           efficiency and builds trust with customers and clients. Our services
           can be tailored to meet specific needs to match your specific goals.

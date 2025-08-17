@@ -19,14 +19,15 @@ const Hero = () => {
         <div className="flex flex-col items-start gap-6">
           <div className="flex items-center gap-1 1200px:w-1/2">
             <h3 className="text-white/50 text-sm w-[200px]">
-              Lorem ipsum, dolor sit amet Lorem ipsum, dolor sit amet
+              🚀 Transforming Ideas into Digital Reality
             </h3>
             <div className="p-2 border border-white flex items-center justify-center">
               <IoArrowDownOutline size={30} color="#fff" />
             </div>
           </div>
           <h1 className="text-white text-start text-[3rem] 500px:text-[5rem] font-bold 1200px:leading-none">
-            Unlicking <br /> Digital Excellence
+            Future-Ready <br />
+            Software Solutions
           </h1>
           <div className="flex items-center gap-2 flex-wrap">
             <Link

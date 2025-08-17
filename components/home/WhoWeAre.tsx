@@ -28,11 +28,12 @@ const WhoWeAre = () => {
           WE ARE A LEADING SOFTWARE HOUSE.
         </h1>
         <p className="text-white text-lg">
-          We’re a team of strategic mdigital marketing working globally with
-          largest brands, We believe that progress only happens when you refused
-          to play things safe. We combine ideas and behaviors, and insights with
-          design, technological data to produce brand experiences that customers
-          love our services.
+          We are a team of technology innovators and software experts working
+          with global enterprises and growing startups alike. We believe
+          progress happens when businesses embrace bold ideas and modern
+          technologies. By combining strategy, design, and data-driven insights,
+          we deliver digital solutions and software experiences that customers
+          trust and love.
         </p>
         <Link
           href={"/"}
