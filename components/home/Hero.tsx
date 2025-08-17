@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { IoArrowDownOutline } from "react-icons/io5";
 import { MdOutlineArrowOutward } from "react-icons/md";
+import { ContainerTextFlip } from "../ui/container-text-flip";
 
 const Hero = () => {
   return (
@@ -27,7 +28,18 @@ const Hero = () => {
           </div>
           <h1 className="text-white text-start text-[3rem] 500px:text-[5rem] font-bold 1200px:leading-none">
             Future-Ready <br />
-            Software Solutions
+            <ContainerTextFlip
+            interval={3000}
+              words={[
+                "Software Solutions",
+                "Web Applications",
+                "Mobile Apps",
+                "SaaS & ERP Platforms",
+                "AI Solutions",
+                "Cloud Apps",
+                "Custom Softwares",
+              ]}
+            />
           </h1>
           <div className="flex items-center gap-2 flex-wrap">
             <Link

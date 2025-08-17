@@ -63,12 +63,12 @@ const Navbar = () => {
             <Link href={"/"}>About Us</Link>
           </li> */}
 
-          <Link
-            href={"/"}
+          <a
+            href="mailto:hello@cybitronix.com"
             className="p-4 bg-[#7471E680] text-white/70 flex items-center gap-2"
           >
             Contact Us <MdOutlineArrowOutward size={25} />
-          </Link>
+          </a>
         </ul>
       </div>
     </div>

@@ -9,6 +9,7 @@ import { TracingBeam } from "@/components/ui/tracingbeam";
 import { users } from "@/data/data";
 import React from "react";
 import Portfolio from "@/components/home/Portfolio";
+import { HeroCarousel } from "@/components/home/Carousel";
 
 const page = () => {
   return (
@@ -16,7 +17,8 @@ const page = () => {
       <TracingBeam>
         <Hero />
         <Services />
-        <ScrollView
+        <HeroCarousel />
+        {/* <ScrollView
           users={users}
           titleComponent={
             <>
@@ -28,7 +30,7 @@ const page = () => {
               </h1>
             </>
           }
-        />
+        /> */}
         <ChooseUs />
         <StatsAndPartners />
         <WhoWeAre />
